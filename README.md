@@ -1,12 +1,12 @@
 Menu
 ----
 
-*Inicio (Sólo título, logo, fechas, lugar)
-*Presentación
-*Expositores
-*Becas
-*Registro (inactivo)
-*Contacto (organizadores y correo)
+* Inicio (Sólo título, logo, fechas, lugar)
+* Presentación
+* Expositores
+* Becas
+* Registro (inactivo)
+* Contacto (organizadores y correo)
 
 Euclides & Hilbert
 ==================
