@@ -61,11 +61,19 @@ body {
 
 }
 
+.curso {
+    background: #a25056;
+    color: #F5F5F5;
+    font-size: 1.2rem;
+    font-weight: 300;
+    min-height: 100px;
+}
+
 #beca {
-    background: #004188;
+    background: #4c764e;
     padding-top: 40px;
     padding-bottom: 40px;
-    color:  #90A4AE;
+    color:  #ffffff;
 }
 
 .beca h1, h2 {
@@ -80,7 +88,7 @@ body {
 }
 
 .beca p {
-    color:  #90A4AE;
+    color:  #ffffff;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
