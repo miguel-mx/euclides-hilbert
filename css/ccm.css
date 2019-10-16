@@ -1,0 +1,184 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 59px;
+}
+
+.h1, h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #18448E;
+}
+
+.yellow {
+    color: #f1e36a;
+}
+.nav-item {
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #615e62;
+}
+.hero-image {
+    position: relative;
+    background-image: linear-gradient(to bottom, #120125, #004788);
+    min-height: 340px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hero-text {
+    /*margin-top: 40px;*/
+    /*margin-bottom: 40px;*/
+}
+
+.hero-text h1 {
+    text-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
+    font-size: 48px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+}
+
+.hero-text h4 {
+    color: white;
+}
+
+/*#presentation {*/
+/*    background: #e2e2c2;*/
+/*    color: #505520;*/
+/*}*/
+
+.presentacion h1, h3 {
+    color: #4A4B42;
+}
+
+.presentacion p {
+    font-size: 1.2rem;
+    color: #454545;
+
+}
+
+#beca {
+    background: #004188;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:  #90A4AE;
+}
+
+.beca h1, h2 {
+    color: white;
+    margin-top: 10px;
+}
+
+.beca h3 {
+    color: #F5F5F5;
+    margin-top: .75rem;
+    margin-bottom: 1px;
+}
+
+.beca p {
+    color:  #90A4AE;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.scientific h3 {
+    margin-top: .75rem;
+    margin-bottom: 1px;
+}
+
+.scientific p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #454545;
+}
+
+#organizing {
+    background: #454545;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.organizing h1 {
+    margin-top: 10px;
+    color: white;
+}
+
+.organizing h3 {
+    color: white;
+    margin-top: .75rem;
+    margin-bottom: 1px;
+}
+
+.organizing p {
+    color: lightblue;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hotel {
+    font-size: 1rem !important;
+}
+
+/*.bg-dark {*/
+/*    background-color: #000000!important;*/
+/*}*/
+
+.footer {
+    padding-top: 20px;
+    background-color: #343a40!important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo-footer {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.logo-container {
+    display:inline-block!important;
+    justify-content:left!important;
+}
+
+.card-body p {
+    font-size: 1.1rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body {
+        margin-top: 56px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    .presentacion p {
+        font-size: 1.1rem;
+    }
+
+    .logo-footer {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .logo-container {
+        display:flex!important;
+        justify-content:center!important;
+    }
+}
+@media only screen and (max-width: 770px) {
+  #plato {
+    display: none;
+  }
+}
+
+
+.triangles {
+    clip-path: polygon(50% 0%, 0% 100%, 51% 100%);
+    border-color: red;
+}
