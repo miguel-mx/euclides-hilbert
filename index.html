@@ -142,16 +142,25 @@
         </div>
         <div class="row">
             <div class="col-12 col-lg-4">
-                <div class="card curso">
-                    <div class="card-body">
-                        Hilbert partiendo tetraedros
+
+                    <div class="card curso">
+                        <div class="card-body">
+                            Hilbert partiendo tetraedros<br><br>
+                            <button type="button" class="btn btn-outline-warning my-4" data-toggle="modal" data-target="#curso1Modal">
+                              Ver resumen
+                            </button>
+                        </div>
                     </div>
-                </div>
+
             </div>
+
             <div class="col-12 col-lg-4">
                 <div class="card curso">
                     <div class="card-body">
                         ¿Cómo se ven los triángulos y hexágonos 4-dimensionales?
+                        <button type="button" class="btn btn-outline-warning my-4" data-toggle="modal" data-target="#curso2Modal">
+                            Ver resumen
+                        </button>
                     </div>
                 </div>
             </div>
@@ -159,10 +168,97 @@
                 <div class="card curso">
                     <div class="card-body">
                         Si divido un objeto en <i>n</i> pedazos, ¿qué pasa con sus diámetros?
+                        <button type="button" class="btn btn-outline-warning my-4" data-toggle="modal" data-target="#curso2Modal">
+                        Ver resumen
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="curso1Modal" tabindex="-1" role="dialog" aria-labelledby="curso1ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="curso1ModalLabel">Hilbert Partiendo Tetraedros</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Resumen:<br>
+                        <br>
+                        En el Congreso Internacional de Matemáticos de París en 1900 Hilbert propuso una lista de
+                        problemas que, en su opinión, serían determinantes en las direcciones de investigación que seguirían
+                        las matemáticas del siglo XX.<br><br>
+                        El tercero de los problemas de Hilbert pide exhibir dos tetraedros con bases congruentes y alturas
+                        iguales (y por lo tanto del mismo volumen), con la propiedad de que no sea posible partir uno de
+                        ellos en una cantidad finita de piezas con las cuales se pueda armar el otro.<br><br>
+                        En este curso hablaremos a detalle de este problema, y abordaremos una elegante solución a él.<br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="curso2Modal" tabindex="-1" role="dialog" aria-labelledby="curso2ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="curso2ModalLabel">¿Cómo se ven los triángulos y hexágonos 4-dimensionales?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Resumen:<br>
+                        <br>
+                        Como bien sabemos, el plano euclidiano admite tres teselaciones regulares: una con cuadrados,
+                        otra con triángulos equiláteros, y una más con hexágonos regulares.<br><br>
+                        La teselación de cuadrados admite una generalización natural a cada espacio euclidiano de
+                        dimensión al menos 3, y en el espacio 3-dimensional esa es la única teselación regular.<br><br>
+                        Hay varias herramientas que se pueden utilizar para explorar las teselaciones regulares del
+                        espacio 4-dimensional. En el curso hablaremos de estas teselaciones con un enfoque de cortado
+                        y pegado, que ayuda a desarrollar la intuición. Una vez comprendida esta idea resulta sencillo
+                        formalizar el estudio de las teselaciones regulares del espacio 4-dimensional.<br><br>
+                        Además se dará un panorama general de las teselaciones regulares en los espacios euclidianos
+                        de cualquier dimensión.<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="curso3Modal" tabindex="-1" role="dialog" aria-labelledby="curso3ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="curso3ModalLabel">Si divido un objeto en <em>n</em> pedazos, ¿qué pasa con sus diámetros?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Resumen:<br>
+                        <br>
+                        En 1932 Borsuk estaba estudiando conjuntos de un diámetro fijo. Observó que la bola unitaria en
+                        dimensión n se puede partir en n+1 regiones con menor diámetro. Al mismo tiempo mostró que esto
+                        no es posible si la bola unitaria se divide en n regiones. Esto lo llevó a preguntarse si el
+                        mismo fenómeno ocurre para cualquier subconjunto acotado de R^n.<br><br>
+                        El mismo Borsuk dio respuesta afirmativa a su pregunta para n=2 y posteriormente Perkal logró
+                        probar lo mismo para n=3.<br><br>
+                        Con el paso de los años se fue dando respuesta afirmativa a esta pregunta en diferentes casos.
+                        Esto incluye, en dimensión arbitraria, a todos los conjuntos convexos suaves, cuerpos de
+                        revolución y cuerpos centralmente simétricos. Sin embargo, para sorpresa de todos, en 1993, Kahn
+                        y Kalai mostraron que a veces la respuesta es negativa.<br><br>
+                        En este curso vamos a estudiar la forma en la que se fue atacando este problema hasta llegar a
+                        su solución final.<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 </section>
 
@@ -184,7 +280,7 @@
                         <li>Entregar resuelta la lista de ejercicios.</li>
                     </ul>
                 </p>
-                <p><button type="button" class="btn btn-secondary btn-lg" disabled>Registro (próximamente)</button></p>
+                <p><a class="btn btn-warning btn-lg" href="https://dev.matmor.unam.mx/teyh/registro/new" role="button">Registro</a></p>
             </div>
             <div class="col-12 col-lg-4">
                 <h3 class="">Fechas Importantes</h3>

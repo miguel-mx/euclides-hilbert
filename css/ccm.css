@@ -156,6 +156,10 @@ body {
     font-size: 1.1rem;
 }
 
+.modal-body {
+    padding: 2rem;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     body {
@@ -185,8 +189,8 @@ body {
   }
 }
 
-
 .triangles {
     clip-path: polygon(50% 0%, 0% 100%, 51% 100%);
     border-color: red;
 }
+
